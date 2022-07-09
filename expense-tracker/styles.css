@@ -1,0 +1,103 @@
+*{
+        font-family: "Fira sans", sans-serif;
+        margin: 0;
+        box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+.container{
+    position: absolute;
+    width: 75%;
+    min-height: 100vh;
+    left:50%;
+    transform: translateX(-50%);
+    padding-top: 5vh;
+    text-align: center;
+}
+
+.title{
+    color: rgb(148, 148, 148);
+}
+
+
+.inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+    
+.input{
+    margin-top: 5vh;
+    display: flex;
+    margin-bottom: 3vh;
+    justify-content: center;
+}
+
+.input-title{
+    margin-right: 1vw;
+}
+
+.spreadsheet{
+    background-color: rgb(0, 1, 20);
+    color: white;
+    
+}
+
+.ssitem{
+    background-color: grey;
+}
+
+.ss-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 100%;
+    border: rgb(99, 135, 255) 1px solid;
+}
+
+.ss-title-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ss-item-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    border-bottom: rgb(99, 135, 255) 1px solid;
+    border-right: rgb(99, 135, 255) 1px solid ;
+    border-left: rgb(99, 135, 255) 1px solid;
+    padding: 1.5vh 0vh 1.5vh 0vh;
+}
+
+.ss-item{
+    font-size: 1.3rem;
+    width: 100%;
+    
+}
+
+.x{
+    color: red;
+    cursor: pointer;
+}
+
+.submit-btn{
+    margin-bottom: 5vh;
+    
+}
+
+.submit{
+    border:rgb(143, 106, 61) 3px solid;
+    background-color: rgb(255, 206, 147);
+    padding: 1vh 1vw;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.input-name{
+    width: 30%;
+}

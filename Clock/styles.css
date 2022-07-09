@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(112, 112, 112);
+}
+h1{
+    color: black;
+}
+
+.clock-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    justify-content: center;
+   
+}
+
+.colon{
+    font-size: 60px;
+}
+
+.container{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center;
+    justify-self: center;
+}
+
+.title{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+        <div class="container">
+            <h1 class="title">Expense Tracker</h1>
+            <h2 class="subtitle">Add A New Item:</h2>
+
+            <div class="inputs">
+                <div class="type input">
+                    <h3 class="input-title">Type:</h3>
+                    <select name="types" class="types">
+                        <option value="N/A" selected></option>
+                        <option value="Cash">Cash</option>
+                        <option value="Debit">Debit</option>
+                        <option value="Credit">Credit</option>
+                    </select>
+                </div>
+                <div class="name input">
+                    <h3 class="input-title">Name:</h3>
+                    <input type="text" class="input-name" placeholder="Where was the expense made?">
+                </div>
+                <div class="date input">
+                    <h3 class="input-title">Date:</h3>
+                    <input type="date" class="input-date">
+                </div>
+                <div class="amount input">
+                    <h3 class="input-title">Amount:</h3>
+                    <input type="text" class="input-amount">
+                </div>
+            </div>
+            <div class="submit-btn">
+                <button class="submit">Submit</button>
+            </div>
+
+
+            <div class="spreadsheet">
+                <div class="ss-title-div">
+                    <span class="ss-title">Type</span>
+                    <span class="ss-title">Name</span>
+                    <span class="ss-title">Date</span>
+                    <span class="ss-title">Amount</span>
+                    <span class="ss-title"> </span>
+                </div>
+
+                <div class="items">
+
+                    
+                    
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
