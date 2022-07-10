@@ -3,7 +3,9 @@
         margin: 0;
         box-sizing: border-box;
 }
-
+html{
+    touch-action: manipulation;
+}
 body{
     background-color: #f1f5f9;
     color: rgb(44, 44, 44);

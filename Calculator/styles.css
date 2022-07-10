@@ -4,6 +4,9 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+html{
+    touch-action: manipulation;
+}
 body{
     background-color: #f1f5f9;
 }
@@ -12,7 +15,7 @@ body{
     
     position: absolute;
     background-color: white;
-    width: 30%;
+    width: 30vw;
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
@@ -27,9 +30,10 @@ body{
     border-top-left-radius:20px;
     border-top-right-radius:20px;
     color: white;
-    font-size: 4rem;
+    font-size: 4vw;
     text-align: end;
     padding-right: 1vw;
+    width: 100%;
 }
 
 .keys{
@@ -66,4 +70,18 @@ button:hover{
 
 .zero{
     border-bottom-left-radius: 20px;
+}
+
+@media only screen and (max-width: 600px){
+
+    .calculator{
+        width: 90vw;
+    }
+
+    .display{
+        font-size: 15vw;
+    }
+    .keys{
+        width: 100%;
+    }
 }
