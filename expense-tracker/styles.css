@@ -5,8 +5,8 @@
 }
 
 body{
-    background-color: rgb(22, 22, 22);
-    color: white;
+    background-color: #f1f5f9;
+    color: rgb(44, 44, 44);
 }
 .container{
     position: absolute;
@@ -19,7 +19,7 @@ body{
 }
 
 .title{
-    color: rgb(148, 148, 148);
+    color: rgb(17, 17, 17);
 }
 
 

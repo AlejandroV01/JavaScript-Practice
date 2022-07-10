@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -6,21 +6,27 @@
 }
 
 .title{
-    background: linear-gradient(to right, #17355C, #E3A68B);
-    color: rgb(247, 247, 247);
-    height: 7vw;
-    line-height: 7vw;
-    font-size: 3vw;
+    text-align: center;
+    background-color: whitesmoke;
+    color: rgb(26, 26, 26);
+    height: 5vw;
+    line-height: 5vw;
+    font-size: 2.5vw;
     padding-left: 2vw;
 }
-
+body{
+    background: linear-gradient(to bottom, #6349F1, #6294C9);
+    background-attachment: fixed;
+}
 .body-container{
+    background: #e2e8f0;
     position: absolute;
-    background: rgb(218, 181, 181);
-    height: 100vh;
-    width: 85vw;
+    height: fit-content;
+    width: 100vw;
     left:50%;
     transform: translateX(-50%);
+    text-align: center;
+    padding-bottom: 10vh;
 }
 
 .project-grid{
@@ -28,43 +34,49 @@
     grid-template-columns: 1fr 1fr;
     text-align: center;
     place-items: center;
-    grid-gap: 5vw;
-    padding: 0 10vw;
+    grid-gap: 3vw;
+    padding: 0 15vw;
 }
 
-.project{
-    background-image: url(/pictures/calculator.PNG);
-    background-position: center;
-    background-size: 150%;
-    padding: 5vw 10vw;
-    overflow: hidden;
-    width: 100%;
+
+
+.image{
+    width: 33vw;
+    display: block;
+    transition: width 1s ease;
 }
 
-.overlay{
+.image:hover{
+    width: 34vw;
+    transition: 1s ease;
+}
 
+.project-name{
+    background-color: #f88181;
+    font-size: 1.75vw;
+    color: rgb(41, 41, 41);;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
 }
 
 .project-title{
-    text-align: center;
     padding-top: 5vh;
-    padding-bottom: 5vh;
-    font-size: 3vw;
-}
-
-.project h1{
+    padding-bottom: 2vh;
     font-size: 2.5vw;
+    font-weight: 300;   
+}
+.underline{
+    height: 0.2vw;
+    background-color: #f88181;
+    width: 7vw;
+    margin: -1rem auto 0px;
+    margin-bottom: 10vh;
 }
 
-.project a button{
-    margin-top: 2vh;
-    border: none;
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    padding: 0.5vw 1vw;
-    font-size: 0.8vw;
-}
+
 @media only screen and (max-width: 600px) {
 
     .project p{
@@ -73,5 +85,37 @@
 
     .project-grid{
         grid-template-columns: 1fr;
+        place-content: center;
     }
+
+    .project{
+        width: 80vw;
+        height: 25vh;
+    }
+
+    .image{
+        width: 100%;
+    }
+
+    .project-name{
+        font-size: 6vw;
+    }
+
+    .project-title{
+        font-size: 8vw;
+        padding-top: 1vh;
+    }
+
+    .underline{
+        width: 20vw;
+        margin-bottom: 5vh;
+    }
+
+    .title{
+        font-size:7vw;
+        font-weight: 500;
+        height: 7vh;
+        line-height: 7vh;
+    }
+
   }
