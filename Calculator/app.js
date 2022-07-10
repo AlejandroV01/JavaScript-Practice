@@ -67,7 +67,7 @@ equal.addEventListener('click', () =>{
         display.innerText = firstNum - secondNum
     }
     if(currentOperand == 'add'){
-        display.innerText = parseInt(firstNum) + parseInt(secondNum)
+        display.innerText = parseFloat(firstNum) + parseFloat(secondNum)
     }
     resultNum = display.innerText;
     secondContinue = true;

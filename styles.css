@@ -8,15 +8,16 @@
 .title{
     background: linear-gradient(to right, #17355C, #E3A68B);
     color: rgb(247, 247, 247);
-    line-height: 15vh;
-    font-size: 4rem;
+    height: 7vw;
+    line-height: 7vw;
+    font-size: 3vw;
     padding-left: 2vw;
 }
 
 .body-container{
     position: absolute;
     background: rgb(218, 181, 181);
-    height: 85vh;
+    height: 100vh;
     width: 85vw;
     left:50%;
     transform: translateX(-50%);
@@ -27,16 +28,50 @@
     grid-template-columns: 1fr 1fr;
     text-align: center;
     place-items: center;
+    grid-gap: 5vw;
+    padding: 0 10vw;
 }
+
 .project{
-    background: rgb(230, 230, 230);
-    width: fit-content;
-    padding: 10vh 10vw;
+    background-image: url(/pictures/calculator.PNG);
+    background-position: center;
+    background-size: 150%;
+    padding: 5vw 10vw;
+    overflow: hidden;
+    width: 100%;
+}
+
+.overlay{
+
 }
 
 .project-title{
     text-align: center;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    font-size: 3rem;
+    font-size: 3vw;
 }
+
+.project h1{
+    font-size: 2.5vw;
+}
+
+.project a button{
+    margin-top: 2vh;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5vw 1vw;
+    font-size: 0.8vw;
+}
+@media only screen and (max-width: 600px) {
+
+    .project p{
+        display: none;
+    }
+
+    .project-grid{
+        grid-template-columns: 1fr;
+    }
+  }
