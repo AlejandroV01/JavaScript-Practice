@@ -83,6 +83,7 @@ button:hover{
         width: 100%;
     }
     .keys{
-        width: 100%;
+        width: 70vw;
+        color: black;
     }
 }
