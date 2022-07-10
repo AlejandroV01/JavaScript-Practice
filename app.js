@@ -35,12 +35,13 @@ const projectGrid = document.querySelector('.project-grid')
 
 window.addEventListener('load', () => {
     let displayGrid = projects.map(i => {
-        return `<a href="${i.html}" target="_blank" class="project-link">
+        return `<div class="project-div"><a href="${i.html}" target="_blank" class="project-link">
             <div class="project">
                 <img src="${i.img}" alt="" class="image">
                 <div class="project-name">${i.project}</div>
             </div>
         </a>
+        </div>
         `
     })
 

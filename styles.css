@@ -17,10 +17,7 @@ html{
     font-size: 2.5vw;
     padding-left: 2vw;
 }
-body{
-    background: linear-gradient(to bottom, #6349F1, #6294C9);
-    background-attachment: fixed;
-}
+
 .body-container{
     background: #e2e8f0;
     position: absolute;
@@ -35,23 +32,25 @@ body{
 .project-grid{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    text-align: center;
     place-items: center;
     grid-gap: 3vw;
     padding: 0 15vw;
+    
 }
 
-
-
-.image{
-    width: 33vw;
-    display: block;
+.project-div{
+    width: 100%;
     transition: width 1s ease;
 }
 
-.image:hover{
-    width: 34vw;
-    transition: 1s ease;
+.project-div:hover{
+    width: 102%;
+    transition: width 1s ease;
+}
+
+.image{
+    width: 100%;
+    display: block;
 }
 
 .project-name{
@@ -82,18 +81,9 @@ a{
 
 @media only screen and (max-width: 600px) {
 
-    .project p{
-        display: none;
-    }
-
     .project-grid{
         grid-template-columns: 1fr;
-        place-content: center;
-    }
-
-    .project{
-        width: 80vw;
-        height: 25vh;
+        grid-gap:2.5vh;
     }
 
     .image{
@@ -121,11 +111,11 @@ a{
         line-height: 7vh;
     }
 
-    .image{
+    .project-div{
         transition: none;
     }
 
-    .image:hover{
+    .project-div:hover{
         transition: none;
     }
 
