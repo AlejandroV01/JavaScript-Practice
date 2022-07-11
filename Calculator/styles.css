@@ -32,7 +32,6 @@ body{
     font-size: 4vw;
     text-align: end;
     padding-right: 1vw;
-   
 }
 
 .keys{
@@ -81,7 +80,7 @@ button:hover{
 
     .display{
         font-size: 15vw;
-        
+        overflow: hidden;
     }
     
     button{

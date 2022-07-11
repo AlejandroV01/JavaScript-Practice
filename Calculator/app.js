@@ -5,7 +5,7 @@ const allClear = document.querySelector('.ac');
 let display = document.querySelector('.display')
 let firstNum = 0;
 let secondNum = 0;
-let resultNum = undefined;
+let resultNum = '';
 let currentOperand = 'none';
 let secondContinue = false;
 
@@ -58,18 +58,20 @@ equal.addEventListener('click', () =>{
     //console.log(firstNum)
     //console.log(secondNum)
     if(currentOperand == 'multiply'){
-        display.innerText = firstNum * secondNum
+        resultNum = firstNum * secondNum
     }
     if(currentOperand == 'divide'){
-        display.innerText = firstNum / secondNum
+        resultNum = firstNum / secondNum
+        
     }
     if(currentOperand == 'subtract'){
-        display.innerText = firstNum - secondNum
+        resultNum = firstNum - secondNum
     }
     if(currentOperand == 'add'){
-        display.innerText = parseFloat(firstNum) + parseFloat(secondNum)
+        resultNum = parseFloat(firstNum) + parseFloat(secondNum)
     }
-    resultNum = display.innerText;
+    
+    display.innerText = resultNum.toString().slice(0,9);
     secondContinue = true;
 })
 
