@@ -78,13 +78,17 @@ button:hover{
     .calculator{
         max-width: 90vw;
         min-width: 90vw;
+        overflow: hidden;
     }
 
     .display{
         font-size: 15vw;
-        width: 100%;
+        min-width: 90vw;
+        max-width: 90vw;
     }
     .keys{
+        min-width: 90vw;
+        max-width: 90vw;
         width: 100%;
         color: black;
     }
