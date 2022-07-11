@@ -75,7 +75,7 @@ button:hover{
 @media only screen and (max-width: 600px){
 
     .calculator{
-        width: 100%;
+        width: 90%;
         overflow: hidden;
     }
 
@@ -83,11 +83,8 @@ button:hover{
         font-size: 15vw;
         
     }
-    .keys{
-        
-        
-    }
+    
     button{
-        font-size: 15vw;
+        font-size: 12vw;
     }
 }
