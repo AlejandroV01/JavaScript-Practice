@@ -87,9 +87,8 @@ button:hover{
         max-width: 90vw;
     }
     .keys{
-        min-width: 90vw;
-        max-width: 90vw;
-        width: 100%;
+        min-width: 70vw;
+        max-width: 70vw;
         color: black;
     }
 }
