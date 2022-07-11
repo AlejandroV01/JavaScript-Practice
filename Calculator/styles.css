@@ -61,6 +61,7 @@ body{
 button{
     border: 1px solid black;
     font-size: 3rem;
+    color: black;
 }
 
 button:hover{
@@ -75,7 +76,8 @@ button:hover{
 @media only screen and (max-width: 600px){
 
     .calculator{
-        width: 90%;
+        max-width: 90vw;
+        min-width: 90vw;
     }
 
     .display{
