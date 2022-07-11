@@ -15,7 +15,8 @@ body{
     
     position: absolute;
     background-color: white;
-    
+    max-width: 30vw;
+    overflow: hidden;
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
@@ -74,7 +75,8 @@ button:hover{
 @media only screen and (max-width: 600px){
 
     .calculator{
-        width: 90%;
+        min-width: 90%;
+        
         overflow: hidden;
     }
 
@@ -85,5 +87,10 @@ button:hover{
     
     button{
         font-size: 12vw;
+    }
+
+    button:hover{
+        background-color:#efefef;
+        transition: none;
     }
 }
