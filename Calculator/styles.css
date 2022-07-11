@@ -15,11 +15,10 @@ body{
     
     position: absolute;
     background-color: white;
-    width: 30vw;
+    
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
-    
     border-radius: 20px;
 }
 
@@ -61,6 +60,7 @@ button{
     border: 1px solid black;
     font-size: 3vw;
     color: black;
+    padding: 0 1vw;
 }
 
 button:hover{
