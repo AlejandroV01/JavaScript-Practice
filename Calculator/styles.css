@@ -19,7 +19,7 @@ body{
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
-    min-height: 60vh;
+    
     border-radius: 20px;
 }
 
@@ -33,7 +33,7 @@ body{
     font-size: 4vw;
     text-align: end;
     padding-right: 1vw;
-    width: 100%;
+   
 }
 
 .keys{
@@ -41,7 +41,6 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     min-height: 50vh;
-    
 }
 
 .equal-key{
@@ -60,8 +59,8 @@ body{
 
 button{
     border: 1px solid black;
-    font-size: 3rem;
-    
+    font-size: 3vw;
+    color: black;
 }
 
 button:hover{
@@ -86,6 +85,9 @@ button:hover{
     }
     .keys{
         
-        color: red;
+        
+    }
+    button{
+        font-size: 15vw;
     }
 }
