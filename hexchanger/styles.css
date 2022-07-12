@@ -57,11 +57,12 @@ body{
     background-color: rgb(116, 116, 116);
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .title{
         font-size: 4vw;
     }
     .button{
-        width: 30vw;
+        width: fit-content;
+        
     }
 }
