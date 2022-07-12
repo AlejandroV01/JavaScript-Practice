@@ -29,6 +29,18 @@ const projects = [
         project: "Pallete Changer",
         html: "hexchanger/index.html"
     },
+    {
+        id: 5,
+        img: "/pictures/pallete-changer.PNG",
+        project: "Pallete Changer",
+        html: "hexchanger/index.html"
+    },
+    {
+        id: 5,
+        img: "/pictures/pallete-changer.PNG",
+        project: "Pallete Changer",
+        html: "hexchanger/index.html"
+    },
     
   ];
 const projectGrid = document.querySelector('.project-grid')
