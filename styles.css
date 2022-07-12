@@ -34,7 +34,7 @@ html{
     grid-template-columns: minmax(10vw, 1fr) minmax(10vw, 1fr) minmax(10vw, 1fr);
     grid-template-rows: minmax(5px, 30vh) minmax(5px, 30vh) minmax(5px, 30vh);
     place-items: center;
-    grid-gap: 0.5vw 2vw;
+    grid-gap: 0.5vh 2vh;
     margin: 0 15vw;
     
 }
