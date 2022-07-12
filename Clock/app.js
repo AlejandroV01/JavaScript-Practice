@@ -85,8 +85,10 @@ switchBtn.addEventListener('click', () => {
     let formatValue = switchBtn.getAttribute('data-format');
     if(formatValue === '12'){
         switchBtn.setAttribute('data-format', '24');
+        switchBtn.innerText = 'Switch to 12-Hour Time Format'
     } else {
         switchBtn.setAttribute('data-format', '12');
+        switchBtn.innerText = 'Switch to Military Time Format'
     }
 })
 
