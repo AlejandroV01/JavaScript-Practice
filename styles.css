@@ -32,23 +32,17 @@ html{
 .project-grid{
     display:grid;
     grid-template-columns: minmax(10vw, 1fr) minmax(10vw, 1fr) minmax(10vw, 1fr);
-    grid-template-rows: minmax(5px, 30vh) minmax(5px, 30vh) minmax(5px, 30vh);
     place-items: center;
-    grid-gap: 0.5vh 2vh;
+    grid-gap: 1vw 2vw;
     margin: 0 15vw;
     
 }
 
 .project-div{
     width: 100%;
-    transition: width 1s ease;
-    
 }
 
-.project-div:hover{
-    width: 105%;
-    transition: width 1s ease;
-}
+
 
 .image{
     width: 100%;
