@@ -61,12 +61,12 @@ body{
 
 .ss-title-div{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .ss-item-div{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     height: 100%;
     border-bottom: rgb(99, 135, 255) 1px solid;
@@ -119,10 +119,18 @@ body{
     }
 
     .spreadsheet{
+        display: grid;
         width: 95vw;
         font-size: 1vw;
     }
     .ss-item{
+        font-size: 3vw;
+    }
+
+    .ss-title-div{
+        min-width: 95vw;
+    }
+    .ss-title{
         font-size: 3.5vw;
     }
 }
