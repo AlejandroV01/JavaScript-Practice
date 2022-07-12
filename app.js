@@ -34,6 +34,7 @@ const projects = [
 const projectGrid = document.querySelector('.project-grid')
 
 window.addEventListener('load', () => {
+    const underline = document.querySelector('.underline');
     let displayGrid = projects.map(i => {
         return `<div class="project-div"><a href="${i.html}" target="_blank" class="project-link">
             <div class="project">
@@ -46,7 +47,9 @@ window.addEventListener('load', () => {
     })
 
     displayGrid = displayGrid.join('')
-    
     projectGrid.innerHTML = displayGrid;
+
+    underline.classList.add('underline-onload')
+
 })
 

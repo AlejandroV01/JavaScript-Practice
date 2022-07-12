@@ -31,20 +31,22 @@ html{
 
 .project-grid{
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(10vw, 1fr) minmax(10vw, 1fr) minmax(10vw, 1fr);
+    grid-template-rows: repeat(auto-fill, minmax(5px, 30vh)  minmax(5px, 25vh));
     place-items: center;
-    grid-gap: 3vw;
-    padding: 0 15vw;
+    grid-gap: 1vw 2vw;
+    margin: 0 15vw;
     
 }
 
 .project-div{
     width: 100%;
     transition: width 1s ease;
+    
 }
 
 .project-div:hover{
-    width: 102%;
+    width: 105%;
     transition: width 1s ease;
 }
 
@@ -73,11 +75,16 @@ a{
 .underline{
     height: 0.2vw;
     background-color: #f88181;
-    width: 7vw;
+    width: 3vw;
     margin: -1rem auto 0px;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
+    
 }
 
+.underline-onload{
+    width: 7vw;
+    transition: width 3s ease;
+}
 
 @media only screen and (max-width: 600px) {
 
