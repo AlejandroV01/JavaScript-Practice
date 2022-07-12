@@ -119,7 +119,6 @@ body{
     }
 
     .spreadsheet{
-        display: grid;
         width: 95vw;
         font-size: 1vw;
     }
