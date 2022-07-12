@@ -133,4 +133,7 @@ body{
     .ss-title{
         font-size: 3.5vw;
     }
+    button{
+        color: black;
+    }
 }
