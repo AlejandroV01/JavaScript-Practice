@@ -18,6 +18,12 @@ window.addEventListener('load', function(){
         alert('Please enter all the fields')
         return
         } 
+        if(parseFloat(amountValue) >= 0 || parseFloat(amountValue) < 0){
+            
+        } else {
+            alert('Please enter a valid number in the Amount field')
+            return
+        }
         
         const itemDiv = document.createElement('div')
         itemDiv.classList.add('ss-item-div')

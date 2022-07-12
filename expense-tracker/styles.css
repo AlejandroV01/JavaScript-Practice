@@ -103,3 +103,26 @@ body{
 .input-name{
     width: 30%;
 }
+
+@media only screen and (max-width:600px){
+    .input-name{
+        width:100%;
+    }
+    .inputs{
+        grid-gap: 0vh 2vh;
+        place-items: start;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .spreadsheet{
+        width: 95vw;
+        font-size: 1vw;
+    }
+    .ss-item{
+        font-size: 3.5vw;
+    }
+}
