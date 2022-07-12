@@ -63,6 +63,7 @@ body{
     }
     .button{
         width: fit-content;
-        
+        padding: 2.5vh 3vw;
+        line-height: 0.5vh;
     }
 }
