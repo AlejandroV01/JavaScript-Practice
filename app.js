@@ -31,15 +31,9 @@ const projects = [
     },
     {
         id: 5,
-        img: "/pictures/pallete-changer.PNG",
-        project: "Pallete Changer",
-        html: "hexchanger/index.html"
-    },
-    {
-        id: 5,
-        img: "/pictures/pallete-changer.PNG",
-        project: "Pallete Changer",
-        html: "hexchanger/index.html"
+        img: "/pictures/lorem-ipsum.PNG",
+        project: "Lorem Ipsum Generator",
+        html: "lorem-ipsum/index.html"
     },
     
   ];
