@@ -35,6 +35,12 @@ const projects = [
         project: "Lorem Ipsum Generator",
         html: "lorem-ipsum/index.html"
     },
+    {
+        id: 6,
+        img: "/pictures/stopwatch.PNG",
+        project: "Stopwatch",
+        html: "Stopwatch/index.html"
+    },
     
   ];
 const projectGrid = document.querySelector('.project-grid')
