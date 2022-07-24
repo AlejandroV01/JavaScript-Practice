@@ -1,0 +1,114 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    height: 200vh;
+}
+.main{
+    position: absolute;
+    height: 100vh;
+    background-image: url(/pictures/landscape.jpg);
+    width: 100vw;
+    z-index: -100;
+}
+.overlay{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(14, 167, 206, 0.568), rgba(0, 0, 0, 0.774));
+    z-index: 1000;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 15vw;
+    align-items: center;
+    
+}
+
+.nav-scroll{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 15vw;
+    align-items: center;
+    background-color: white;
+    transition: background-color 0.5s ease;
+}
+
+.logo{
+    width: 2vw;
+    height: 2vw;
+}
+.logo-div{
+    top:50%;
+    transform: translateY(5%);
+}
+.links{
+    display: flex;
+    transition: color 1s ease;
+    color: white;
+}
+
+.links h1{
+    margin-right: 2vw;
+    font-size: 1.3vw;
+    letter-spacing: 0.1vw;
+    font-weight: 300;
+}
+
+.links-scroll{
+    display: flex;
+    transition: color 1s ease;
+    color: black;
+}
+.links-scroll h1{
+    margin-right: 2vw;
+    font-size: 1.3vw;
+    letter-spacing: 0.1vw;
+    font-weight: 400;
+}
+.links-scroll:last-child{
+    margin-right: 0;
+}
+
+.links:last-child{
+    margin-right: 0;
+}
+
+.main-mid-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 35vw;
+    color: white;
+    border-radius: 5px;
+    padding: 2vh 2vw;
+}
+.main-mid-container button{
+    border: 3px white solid;
+    background-color: transparent;
+    padding: 1vh 1vw;
+    color: white;
+    letter-spacing: 0.05vw;
+    margin-top: 1vh;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.main-mid-container button:hover{
+    background-color: white;
+    color: teal;
+    transition: 1s ease;
+}
+.main-mid-container h1{
+    letter-spacing: 0.1vw;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.main-mid-container p{
+    font-weight: 300;
+}

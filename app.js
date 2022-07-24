@@ -41,6 +41,12 @@ const projects = [
         project: "Stopwatch",
         html: "Stopwatch/index.html"
     },
+    {
+        id: 7,
+        img: "/pictures/scroll-project.PNG",
+        project: "Scroll Project",
+        html: "sticky-nav/index.html"
+    },
     
   ];
 const projectGrid = document.querySelector('.project-grid')
