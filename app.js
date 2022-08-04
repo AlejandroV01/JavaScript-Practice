@@ -47,6 +47,12 @@ const projects = [
         project: "Scroll Project",
         html: "sticky-nav/index.html"
     },
+    {
+        id: 8,
+        img: "/pictures/catApi",
+        project: "Cat API",
+        html: "catAPI/index.html"
+    },
     
   ];
 const projectGrid = document.querySelector('.project-grid')

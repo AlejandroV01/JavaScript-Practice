@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+
+.image{
+    width: 20vw;
+}
+
+.btn{
+    font-size: 1.3rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.title{
+    margin-top: 5vh;
+}
+
+
+.btn:hover{
+    background-color: antiquewhite;
+}
+
