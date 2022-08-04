@@ -56,8 +56,12 @@ const projects = [
     
   ];
 const projectGrid = document.querySelector('.project-grid')
+const preloader = document.querySelector('.preloader')
+const title = document.querySelector('.title')
 
 window.addEventListener('load', () => {
+    preloader.classList.add('preloader-off')
+    title.classList.add('title-on')
     const underline = document.querySelector('.underline');
     let displayGrid = projects.map(i => {
         return `<div class="project-div"><a href="${i.html}" target="_blank" class="project-link">
