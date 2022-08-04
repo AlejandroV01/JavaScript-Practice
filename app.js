@@ -49,7 +49,7 @@ const projects = [
     },
     {
         id: 8,
-        img: "/pictures/catApi",
+        img: "/pictures/catApi.PNG",
         project: "Cat API",
         html: "catAPI/index.html"
     },
