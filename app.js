@@ -57,7 +57,7 @@ const projects = [
         id: 9,
         img: "/pictures/pokemonAPI.PNG",
         project: "Pokemon API",
-        html: "alejandropokemonapi.netlify.app"
+        html: "https://alejandropokemonapi.netlify.app"
     },
     
     
