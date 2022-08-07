@@ -69,6 +69,12 @@ const projects = [
         project: "Pokemon API",
         html: "https://alejandropokemonapi.netlify.app"
     },
+    {
+        id: 2,
+        img: "/pictures/jokeAPI.PNG",
+        project: "Joke API",
+        html: "https://alejandrojokeapi.netlify.app"
+    },
     
   ];
 const projectGrid = document.querySelector('.project-grid')
@@ -79,7 +85,7 @@ const title = document.querySelector('.title')
 window.addEventListener('load', () => {
     preloader.classList.add('preloader-off')
     title.classList.add('title-on')
-    const underline = document.querySelector('.underline');
+    const underline = document.querySelectorAll('.underline');
     let displayGrid = projects.map(i => {
         return `<div class="project-div"><a href="${i.html}" target="_blank" class="project-link">
             <div class="project">
@@ -107,7 +113,10 @@ window.addEventListener('load', () => {
     projectGrid.innerHTML = displayGrid;
     projectGridReact.innerHTML = displayGridReact;
 
-    underline.classList.add('underline-onload')
+    underline.forEach((underlineIn) => {
+        underlineIn.classList.add('underline-onload')
+    })
+    
 
 })
 
