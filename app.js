@@ -62,7 +62,17 @@ const projects = [
     
     
   ];
+  const reactProjects = [
+    {
+        id: 1,
+        img: "/pictures/pokemonAPI.PNG",
+        project: "Pokemon API",
+        html: "https://alejandropokemonapi.netlify.app"
+    },
+    
+  ];
 const projectGrid = document.querySelector('.project-grid')
+const projectGridReact = document.querySelector('.project-grid-react')
 const preloader = document.querySelector('.preloader')
 const title = document.querySelector('.title')
 
@@ -80,9 +90,22 @@ window.addEventListener('load', () => {
         </div>
         `
     })
+    let displayGridReact = reactProjects.map(i => {
+        return `<div class="project-div"><a href="${i.html}" target="_blank" class="project-link">
+            <div class="project">
+                <img src="${i.img}" alt="" class="image">
+                <div class="project-name">${i.project}</div>
+            </div>
+        </a>
+        </div>
+        `
+    })
+    
 
     displayGrid = displayGrid.join('')
+    displayGridReact = displayGridReact.join('')
     projectGrid.innerHTML = displayGrid;
+    projectGridReact.innerHTML = displayGridReact;
 
     underline.classList.add('underline-onload')
 
