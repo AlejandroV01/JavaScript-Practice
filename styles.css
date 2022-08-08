@@ -95,6 +95,11 @@ a{
         grid-gap:2.5vh;
     }
 
+    .project-grid-react{
+        grid-template-columns: 1fr;
+        grid-gap:2.5vh;
+    }
+
     .image{
         min-width: 100%;
     }
