@@ -75,6 +75,12 @@ const projects = [
         project: "Joke API",
         html: "https://alejandrojokeapi.netlify.app"
     },
+    {
+        id: 3,
+        img: "/pictures/dictionaryAPI.PNG",
+        project: "Dictionary API",
+        html: "https://alejandrodictionaryapi.netlify.app"
+    },
     
   ];
 const projectGrid = document.querySelector('.project-grid')
