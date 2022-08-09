@@ -81,6 +81,12 @@ const projects = [
         project: "Dictionary API",
         html: "https://alejandrodictionaryapi.netlify.app"
     },
+    {
+        id: 4,
+        img: "/pictures/countryAPI.PNG",
+        project: "Country API",
+        html: "https://alejandrocountryapi.netlify.app"
+    },
     
   ];
 const projectGrid = document.querySelector('.project-grid')
