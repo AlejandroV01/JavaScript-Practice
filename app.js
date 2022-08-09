@@ -87,6 +87,12 @@ const projects = [
         project: "Country API",
         html: "https://alejandrocountryapi.netlify.app"
     },
+    {
+        id: 5,
+        img: "/pictures/passwordGenerator.PNG",
+        project: "Password Generator",
+        html: "https://alejandropasswordgenerator.netlify.app"
+    },
     
   ];
 const projectGrid = document.querySelector('.project-grid')
