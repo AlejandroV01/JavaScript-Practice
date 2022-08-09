@@ -53,14 +53,6 @@ const projects = [
         project: "Cat API",
         html: "catAPI/index.html"
     },
-    {
-        id: 9,
-        img: "/pictures/pokemonAPI.PNG",
-        project: "Pokemon API",
-        html: "https://alejandropokemonapi.netlify.app"
-    },
-    
-    
   ];
   const reactProjects = [
     {
