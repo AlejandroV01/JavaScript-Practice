@@ -86,7 +86,7 @@ const reactProjects = [
     html: "https://alejandropasswordgenerator.netlify.app",
   },
   {
-    id: 5,
+    id: 6,
     img: "/pictures/todoList.PNG",
     project: "Todo-List",
     html: "https://alejandrotodolist.netlify.app",
